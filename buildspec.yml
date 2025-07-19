@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing source files
+
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Build completed
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: .
